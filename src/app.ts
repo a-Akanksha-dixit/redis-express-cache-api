@@ -20,7 +20,8 @@ connectRedis().catch(console.error);
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello Redis with Express and TS');
+    res.status(200).json({message: 'Hello Redis with Express and TS.'});
+    return;
 });
 
 
