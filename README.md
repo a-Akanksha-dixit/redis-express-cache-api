@@ -240,9 +240,3 @@ curl http://localhost:3000/get/temp_key
 
 3. Wait 15 seconds and try to get it again — should return "Key not found"
 
-```
-
----
-
-If you want, I can also help you add info about running the server or setup instructions!
-```
